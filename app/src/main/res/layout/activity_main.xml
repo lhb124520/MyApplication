@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liuhb.myapplication.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="0dp"
+        android:layout_height="800dp"
+        android:weightSum="1"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+<TextView
+    android:id="@+id/tvOut"
+    android:layout_width="394dp"
+    android:layout_height="67dp"
+    android:text="hello"
+    tools:layout_editor_absoluteY="92dp"
+    tools:layout_editor_absoluteX="-3dp" />
+
+    <Button
+        android:id="@+id/BtnStartAty1"
+        android:layout_width="378dp"
+        android:layout_height="52dp"
+        android:text="StartAty1"
+        tools:layout_editor_absoluteY="195dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_weight="0.14" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
